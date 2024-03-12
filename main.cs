@@ -1,7 +1,7 @@
  for (int t = 0; t < T; t++)
         {
             weightLogWeights[t] = weights[t] * Math.Log(weights[t]);
-            sumOfWeights += weights[t];
+            sumOfWeights += weights[t];//good
             sumOfWeightLogWeights += weightLogWeights[t];
         }
 //hi
