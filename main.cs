@@ -4,7 +4,7 @@
             sumOfWeights += weights[t];
             sumOfWeightLogWeights += weightLogWeights[t];
         }
-
+//hi
         startingEntropy = Math.Log(sumOfWeights) - sumOfWeightLogWeights / sumOfWeights;
 
         sumsOfOnes = new int[MX * MY];
