@@ -18,7 +18,7 @@
 
     public bool Run(int seed, int limit)
     {
-        if (wave == null) Init();
+        if (wave == null) Init();//yes
 
         Clear();
         Random random = new(seed);
